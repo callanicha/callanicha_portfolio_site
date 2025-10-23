@@ -17,12 +17,12 @@ const Projects = () => {
             <div className="project-header">
               <h2 className="project-title">Market à la Mode: Luxury Brands Dashboard</h2>
               <div className="project-links">
-                <a href="https://github.com/callanicha/callanicha_portfolio_site" target="_blank" rel="noopener noreferrer" className="project-link">
+                <a href="https://github.com/callanicha/Market-a-la-Mode" target="_blank" rel="noopener noreferrer" className="project-link">
                   <span className="link-icon">📁</span> GitHub
                 </a>
-                <button className="project-link" disabled>
-                  <span className="link-icon">📄</span> PDF Report (Coming Soon)
-                </button>
+                <a href="/market-a-la-mode.pdf" target="_blank" rel="noopener noreferrer" className="project-link" download>
+                  <span className="link-icon">📄</span> PDF Report
+                </a>
               </div>
             </div>
             
@@ -33,23 +33,29 @@ const Projects = () => {
                   A comprehensive data analysis and visualization project focusing on the financial performance 
                   of three major luxury brands: Prada, LVMH, and Kering. This project combines historical stock 
                   data analysis with predictive forecasting to provide insights into market trends and brand performance.
+                  The analysis covers 2015-2024 data with forecasts extending to 2030, examining how these luxury 
+                  conglomerates move in sync or diverge under different macroeconomic conditions.
                 </p>
                 
                 <h4>Key Features:</h4>
                 <ul className="feature-list">
-                  <li>Historical stock price analysis (2015-2025)</li>
-                  <li>Price movement intensity tracking</li>
-                  <li>Relative growth comparison across brands</li>
-                  <li>COVID-19 impact analysis</li>
-                  <li>Predictive forecasting (2026-2030)</li>
-                  <li>Interactive dashboard with multiple chart types</li>
+                  <li>Historical stock price analysis (2015-2024)</li>
+                  <li>Normalized growth indices (Base-100 index)</li>
+                  <li>CAGR and volatility calculations</li>
+                  <li>Year-over-year return analysis</li>
+                  <li>COVID-19 impact assessment</li>
+                  <li>Forecast projections (2025-2030)</li>
+                  <li>Interactive Tableau dashboard</li>
+                  <li>Python data pipeline with Pandas</li>
                 </ul>
 
                 <h4>Technical Implementation:</h4>
                 <p>
-                  The dashboard utilizes advanced data visualization techniques including combination charts, 
-                  heatmaps, and time series analysis. The project demonstrates proficiency in data cleaning, 
-                  statistical analysis, and creating compelling visual narratives from complex financial datasets.
+                  Built with Python (Pandas) for data processing and Tableau for visualization. The project features 
+                  a custom data pipeline that standardizes multi-source financial data, normalizes stock prices to 
+                  Base-100 indices for direct comparison, and calculates key financial metrics including CAGR and 
+                  volatility. The interactive Tableau dashboard showcases normalized growth curves, annual return 
+                  heatmaps, and forecast bands with confidence intervals.
                 </p>
               </div>
 
@@ -58,16 +64,16 @@ const Projects = () => {
                 <div className="dashboard-images">
                   <div className="dashboard-image">
                     <img 
-                      src="/images/luxury-dashboard-1.png" 
-                      alt="Luxury Brands Dashboard - Price vs Movement Intensity Analysis"
+                      src="/images/market-a-la-mode1.png" 
+                      alt="Market à la Mode Dashboard - Price vs Movement Intensity Analysis"
                       className="dashboard-img"
                     />
                     <p className="image-caption">Price vs Price-Movement Intensity Analysis</p>
                   </div>
                   <div className="dashboard-image">
                     <img 
-                      src="/images/luxury-dashboard-2.png" 
-                      alt="Luxury Brands Dashboard - Market Performance Overview"
+                      src="/images/market-a-la-mode2.png" 
+                      alt="Market à la Mode Dashboard - Market Performance Overview"
                       className="dashboard-img"
                     />
                     <p className="image-caption">Market Performance & Growth Tracking</p>
