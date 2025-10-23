@@ -6,7 +6,7 @@ const MenuCard = ({title, description, imageUrl, navigateTo}) => {
 
     return (
         <div className="menu-card">
-            <img src={imageUrl} alr={title} className="card-img" />
+            <img src={imageUrl} alt={title} className="card-img" />
             <h2>{title}</h2>
             <p>{description}</p>
             <div className="menu-btn" onClick={() => navigate(navigateTo)}>
