@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Helveticaneue';
+  src: url('../fonts/Helveticaneue.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adogare';
+  src: url('../fonts/Adogare.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Protest';
+  src: url('../fonts/Protest.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe8f6;
+    height: 20vh;
+    box-shadow:  0px 50px 40px  rgba(255, 232, 246, 1);
+    position: relative;
+}
+
+#username-logo {
+  font-family: Protest, sans-serif;
+  text-align: center;
+}
+
+#username-logo:hover,
+#header-instagram:hover ,
+#header-contact:hover {
+  text-shadow: 0 0 20px #ff8ce6;
+}
+
+#header-instagram,
+#header-contact {
+  width: 25%;
+  font-family: Adogare, sans-serif;
+  text-align: center;
+}
+.footer-wrapper {
+  position: relative; 
+  background-color: rgb(191, 234, 195);
+  padding: 2rem 1rem;
+  font-family: Adogare, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow:  0px -50px 40px  rgb(191, 234, 195, 1);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 1rem;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-column.left {
+  text-align: left;
+}
+
+.footer-column.right {
+  text-align: right;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.footer-column a:hover {
+  color: #ffb0ee;
+}
+
+.footer-bottom {
+  font-family: Helveticaneue, sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #000000;
+  opacity: 0.8;
+}
+
+.button-to-menu {
+  align-items: center;
+  background-color: #ffe8f6;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Helveticaneue, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.button-to-menu:hover {
+  background-color: rgb(191, 234, 195);
+}
+
+.button-to-menu:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-to-menu:hover:after {
+  transform: translate(0, 0);
+}
+
+@media (min-width: 768px) {
+  .button-to-menu {
+    padding: 0 40px;
+  }
+}

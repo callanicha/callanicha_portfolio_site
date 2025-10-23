@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Helveticaneue';
+  src: url('../fonts/Helveticaneue.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adogare';
+  src: url('../fonts/Adogare.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.menu-container {
+    font-family: Helveticaneue, sans-serif;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-card {
+    width: 300px;
+    background-color: #ffebf7;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-size: 15px;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-btn {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(191, 234, 195, 0.4);
+  color: #111;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #111;
+}
+
+.menu-btn:hover {
+    background-color: #fef6fb;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.button-to-home {
+  position: relative;
+  z-index: 0; /* Needed for :after layering */
+  overflow: visible;
+  background-color: #ffe8f6;
+  border: 2px solid #111;
+  border-radius: 12px;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  height: 60px;
+  font-family: Helveticaneue, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 60px auto 100px;
+  transition: transform 0.2s ease;
+  box-shadow: 8px 8px 0 #111;
+} 
+
+.button-to-home:hover {
+  background-color: rgb(191, 234, 195);
+}
+
+.button-to-home::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  border-radius: 8px;
+  z-index: -1;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease;
+  display: none;
+}
+
+.button-to-home:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-to-home:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-to-home:hover {
+  box-shadow: 0 0 0 #111;
+  transform: translate(8px, 8px);
+}
+
+@media (min-width: 768px) {
+  .button-to-home {
+    padding: 0 40px;
+  }
+}

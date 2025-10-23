@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Adogare';
+  src: url('../fonts/Adogare.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helveticaneue';
+  src: url('../fonts/Helveticaneue.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.experiences-container {
+    font-family: Helveticaneue, sans-serif;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.timeline-section {
+    display: flex;
+}
+
+.timeline-topic {
+    width: 25%;
+    text-align: right;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+    position: relative;
+    margin-top: 20px;
+}
+
+.timeline-center-line {
+    width: 75%;
+    position: relative;
+    border-left: 1.5px solid black;
+    padding-left: 2rem;
+}
+
+.timeline-entry {
+    position: relative;
+    margin: 3rem 0;
+    padding-left: 1rem;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -2.32rem;
+    top: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.timeline-box {
+    padding-left: 2rem;
+    max-width: 600px;
+}
+
+.timeline-box a{
+    text-decoration: none;
+    color: black;
+}
+
+.timeline-box a:hover {
+    text-decoration: underline;
+}
+
+.timeline-box h3 {
+    margin: 0;
+}
+
+.location {
+    font-style: italic;
+}
+
+.description {
+    margin-top: 0.2rem;
+
+}
+

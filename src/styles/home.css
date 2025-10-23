@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Protest';
+  src: url('../fonts/Protest.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adogare';
+  src: url('../fonts/Adogare.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helveticaneue';
+  src: url('../fonts/Helveticaneue.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home-page-body {
+    font-family: Helveticaneue, sans-serif;
+    font-size: 15px;
+    width: 33%;
+    margin: 0 auto;
+    text-align: left;
+    white-space: pre-line;
+    margin-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
