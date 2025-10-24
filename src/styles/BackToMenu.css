@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Helveticaneue';
+  src: url('../fonts/Helveticaneue.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.back-to-menu-btn {
+  position: relative;
+  margin: 20px 0 40px 20px;
+  background: linear-gradient(135deg, #ffe8f6 0%, #fef6fb 100%);
+  border: 2px solid #333;
+  border-radius: 25px;
+  color: #333;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  font-family: 'Helveticaneue', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 0 #333;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.back-to-menu-btn:hover {
+  background: linear-gradient(135deg, #fef6fb 0%, #ffe8f6 100%);
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 0 #333;
+}
+
+.back-to-menu-btn:active {
+  transform: translateY(2px);
+  box-shadow: 2px 2px 0 #333;
+}
+
+.back-icon {
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.back-to-menu-btn:hover .back-icon {
+  transform: translateX(-3px);
+}
+
+.back-text {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .back-to-menu-btn {
+    margin: 15px 0 30px 15px;
+    padding: 10px 16px;
+    font-size: 13px;
+    box-shadow: 3px 3px 0 #333;
+  }
+  
+  .back-to-menu-btn:hover {
+    box-shadow: 4px 4px 0 #333;
+  }
+  
+  .back-icon {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .back-to-menu-btn {
+    margin: 10px 0 20px 10px;
+    padding: 8px 14px;
+    font-size: 12px;
+    gap: 6px;
+  }
+  
+  .back-text {
+    display: none;
+  }
+  
+  .back-icon {
+    font-size: 16px;
+  }
+}

@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/Projects.css";
+import BackToMenu from "../component/BackToMenu";
 
 const Projects = () => {
   return (
     <div className="projects-page">
       <div className="projects-container">
+        <BackToMenu />
         {/* Header Section */}
         <div className="projects-header">
           <h1 className="projects-title">Projects & Skills</h1>
@@ -92,10 +94,48 @@ const Projects = () => {
               <h3 className="category-title">Data Analysis</h3>
               <div className="skill-items">
                 <span className="skill-item">Python (Pandas, NumPy)</span>
-                <span className="skill-item">R</span>
                 <span className="skill-item">SQL</span>
                 <span className="skill-item">NoSQL</span>
                 <span className="skill-item">Statistical Analysis</span>
+                <span className="skill-item">PostgreSQL</span>
+                <span className="skill-item">MongoDB</span>
+                <span className="skill-item">MySQL</span>
+                <span className="skill-item">Redis</span>
+                <span className="skill-item">Neo4j</span>
+                <span className="skill-item">Jupyter Notebook</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+            <h3 className="category-title">Analytical Workflow</h3>
+              <div className="skill-items">
+                <span className="skill-item">Data Cleaning & Transformation</span>
+                <span className="skill-item">Exploratory Data Analysis (EDA)</span>
+                <span className="skill-item">Dashboard Design & KPI Tracking</span>
+                <span className="skill-item">Forecasting & Trend Modeling</span>
+                <span className="skill-item">A/B Testing</span>
+              </div>
+            </div>
+
+            {/* <div className="skill-category">
+              <h3 className="category-title">Database & Tools</h3>
+              <div className="skill-items">
+                <span className="skill-item">PostgreSQL</span>
+                <span className="skill-item">MongoDB</span>
+                <span className="skill-item">Git</span>
+                <span className="skill-item">Jupyter Notebook</span>
+                <span className="skill-item">Excel/Google Sheets</span>
+              </div>
+            </div> */}
+
+            <div className="skill-category">
+              <h3 className="category-title">Business & Industry Knowledge</h3>
+              <div className="skill-items">    
+                <span className="skill-item">Luxury & Fashion Market Analytics</span>
+                <span className="skill-item">Concert & Event Operations</span>
+                <span className="skill-item">Customer Behavior Analysis</span>
+                <span className="skill-item">Revenue & Pricing Strategy</span>
+                <span className="skill-item">Marketing Performance Analytics</span>
               </div>
             </div>
 
@@ -104,42 +144,7 @@ const Projects = () => {
               <div className="skill-items">
                 <span className="skill-item">Tableau</span>
                 <span className="skill-item">Power BI</span>
-                <span className="skill-item">Matplotlib</span>
-                <span className="skill-item">Seaborn</span>
-                <span className="skill-item">Plotly</span>
-              </div>
-            </div>
-
-            <div className="skill-category">
-              <h3 className="category-title">Web Development</h3>
-              <div className="skill-items">
-                <span className="skill-item">React</span>
-                <span className="skill-item">JavaScript</span>
-                <span className="skill-item">HTML/CSS</span>
-                <span className="skill-item">Tailwind CSS</span>
-                <span className="skill-item">Node.js</span>
-              </div>
-            </div>
-
-            <div className="skill-category">
-              <h3 className="category-title">Database & Tools</h3>
-              <div className="skill-items">
-                <span className="skill-item">MySQL</span>
-                <span className="skill-item">MongoDB</span>
-                <span className="skill-item">Git</span>
-                <span className="skill-item">Jupyter Notebook</span>
-                <span className="skill-item">Excel/Google Sheets</span>
-              </div>
-            </div>
-
-            <div className="skill-category">
-              <h3 className="category-title">Business & Domain</h3>
-              <div className="skill-items">
-                <span className="skill-item">Financial Analysis</span>
-                <span className="skill-item">Market Research</span>
-                <span className="skill-item">Fashion Industry</span>
-                <span className="skill-item">Investment Analysis</span>
-                <span className="skill-item">Business Intelligence</span>
+                <span className="skill-item">Excel (Pivot Tables, Charts, Dashboards) </span>
               </div>
             </div>
 
@@ -149,6 +154,19 @@ const Projects = () => {
                 <span className="skill-item">English (Fluent)</span>
                 <span className="skill-item">Thai (Native)</span>
                 <span className="skill-item">French (Intermediate)</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3 className="category-title">Technical Implementation</h3>
+              <div className="skill-items">
+                <span className="skill-item">React</span>
+                <span className="skill-item">Python</span>
+                <span className="skill-item">JavaScript</span>
+                <span className="skill-item">HTML / CSS / Tailwind</span>
+                <span className="skill-item">Node.js / Express</span>
+                <span className="skill-item">API Integration</span>
+                <span className="skill-item">Git / GitHub</span>
               </div>
             </div>
           </div>

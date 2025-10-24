@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Experiences.css"
 import TimelineSection from "../component/TimelineSection";
+import BackToMenu from "../component/BackToMenu";
 import lvmh_cer from "../img/lvmh.png";
 
 const Experiences = () => {
@@ -37,8 +38,9 @@ const Experiences = () => {
     {
       title: "Event Organizer and Marketing Internship - The DnD",
       location: "Bangkok, Thailand | Summer 2025",
-      description: ["Collaborated with the Marketing and Account Executive teams to coordinate high-profile projects including concerts, fansign events, music festivals, and brand ambassador campaigns.",
-                    "Assisted in planning and executing multi-scale events and activations, contributing to the development of brand strategies for clients such as GMM Grammy, Workpoint, and SM Entertainment."],
+      description: ["Coordinated end-to-end for 5+ concerts, fansign events, TV Show ‘Celeb War’, brand-ambassador campaigns, and music festivals, aligning marketing teams to deliver every project on time and within budget.",
+                  "Collected, cleaned, and analyzed audience engagement data from 5,000+ attendees, translating insights into actionable recommendations that refined event marketing strategies for clients including GMM Grammy, Workpoint, and SM Entertainment.",
+                  "Analyzed and presented dashboards to visualize client feedback from a government event, delivering data-driven insights that guided future programming."],
       link: "https://thednd.com/",
     }
   ];
@@ -84,6 +86,7 @@ const Experiences = () => {
 
   return (
     <div className="experiences-container">
+      <BackToMenu />
       <TimelineSection topic="Education" items={educationItems} />
       <TimelineSection topic="Professional Experiences" items={workItems} />
       <TimelineSection topic="Certificates" items={certificatesItems} />
