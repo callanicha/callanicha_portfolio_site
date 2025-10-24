@@ -1,11 +1,127 @@
 import React from "react";
+import "../styles/Interests.css";
 import BackToMenu from "../component/BackToMenu";
 
 const Interest = () => {
   return (
-    <div style={{ position: 'relative', padding: '20px' }}>
+    <div className="interests-page">
       <BackToMenu />
-      <h1>Welcome to the Other Page!</h1>
+      <div className="interests-container">
+        
+        {/* Header Section */}
+        <div className="interests-header">
+          <h1 className="interests-title">Interests & Inspiration</h1>
+          <p className="interests-subtitle">What drives me beyond the data</p>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="faq-section">
+          <h2 className="section-title">Frequently Asked Questions</h2>
+          <div className="faq-container">
+            <div className="faq-item">
+              <h3 className="faq-question">What's your favorite part about data analysis?</h3>
+              <p className="faq-answer">[Edit this answer yourself later]</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="faq-question">How do you balance fashion and technology?</h3>
+              <p className="faq-answer">[Edit this answer yourself later]</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="faq-question">What inspires your creative process?</h3>
+              <p className="faq-answer">[Edit this answer yourself later]</p>
+            </div>
+            <div className="faq-item">
+              <h3 className="faq-question">How do you stay motivated in your studies?</h3>
+              <p className="faq-answer">[Edit this answer yourself later]</p>
+            </div>
+          </div>
+        </div>
+
+        {/* OOTD Section */}
+        <div className="ootd-section">
+          <h2 className="section-title">What motivates me to school everyday ?</h2>
+          <p className="section-subtitle">Outfit of the Day Gallery</p>
+          <div className="gallery-container">
+            <div className="gallery-grid">
+              {/* OOTD Images - Add your own images */}
+              <div className="gallery-item">
+                <img src="/images/ootd12.jpg" alt="OOTD 12" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd7.jpg" alt="OOTD 7" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd2.jpg" alt="OOTD 2" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd9.jpg" alt="OOTD 9" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd3.jpg" alt="OOTD 3" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd4.jpg" alt="OOTD 4" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd1.jpg" alt="OOTD 1" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd5.jpg" alt="OOTD 5" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd6.jpg" alt="OOTD 6" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd8.jpg" alt="OOTD 8" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd10.jpg" alt="OOTD 10" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd11.jpg" alt="OOTD 11" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd13.jpg" alt="OOTD 13" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/ootd14.jpg" alt="OOTD 14" className="gallery-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Fashion Week & Concert Section */}
+        <div className="events-section">
+          <h2 className="section-title">What keeps pushing me this far ?</h2>
+          <p className="section-subtitle">Fashion Week & Concert Experiences</p>
+          <div className="gallery-container">
+            <div className="gallery-grid">
+              {/* Event Images - Add your own images */}
+              <div className="gallery-item">
+                <img src="/images/lily9.jpeg" alt="Fashion Week Experience 1" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/lily10.jpeg" alt="Concert Experience 1" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/lily11.jpeg" alt="Fashion Week Experience 2" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/lily12.jpeg" alt="Concert Experience 2" className="gallery-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Quote Section */}
+        <div className="quote-section">
+          <blockquote className="inspiration-quote">
+            "Every data tells a story — and every outfit does too."
+          </blockquote>
+          <cite className="quote-author">— Calla</cite>
+        </div>
+
+      </div>
     </div>
   );
 };
