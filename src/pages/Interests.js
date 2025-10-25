@@ -19,20 +19,20 @@ const Interest = () => {
           <h2 className="section-title">Frequently Asked Questions</h2>
           <div className="faq-container">
             <div className="faq-item">
-              <h3 className="faq-question">What's your favorite part about data analysis?</h3>
-              <p className="faq-answer">[Edit this answer yourself later]</p>
+              <h3 className="faq-question">What's one thing you make it the whole personality?</h3>
+              <p className="faq-answer">My nickname, Calla, I've been obsessed over flowers especially lily and calla lily</p>
             </div>
             <div className="faq-item">
-              <h3 className="faq-question">How do you balance fashion and technology?</h3>
-              <p className="faq-answer">[Edit this answer yourself later]</p>
+              <h3 className="faq-question">What's your favorite show from fashion week SS26?</h3>
+              <p className="faq-answer">Aleen Sabbagh, Prada, KIMHEKIM, Dior, Chanel</p>
             </div>
             <div className="faq-item">
-              <h3 className="faq-question">What inspires your creative process?</h3>
-              <p className="faq-answer">[Edit this answer yourself later]</p>
+              <h3 className="faq-question">What color palette defines you?</h3>
+              <p className="faq-answer">Muted pinks, matcha greens, and pearly whites : a palette of Pink Lily</p>
             </div>
             <div className="faq-item">
-              <h3 className="faq-question">How do you stay motivated in your studies?</h3>
-              <p className="faq-answer">[Edit this answer yourself later]</p>
+              <h3 className="faq-question">What goes fashion society and concert gives you?</h3>
+              <p className="faq-answer">They create the coolest group of people I've ever hangout with</p>
             </div>
           </div>
         </div>

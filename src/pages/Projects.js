@@ -35,13 +35,13 @@ const Projects = () => {
                   A comprehensive data analysis and visualization project focusing on the financial performance 
                   of three major luxury brands: Prada, LVMH, and Kering. This project combines historical stock 
                   data analysis with predictive forecasting to provide insights into market trends and brand performance.
-                  The analysis covers 2015-2024 data with forecasts extending to 2030, examining how these luxury 
+                  The analysis covers 2015-2025 data with forecasts extending to 2030, examining how these luxury 
                   conglomerates move in sync or diverge under different macroeconomic conditions.
                 </p>
                 
                 <h4>Key Features:</h4>
                 <ul className="feature-list">
-                  <li>Historical stock price analysis (2015-2024)</li>
+                  <li>Historical stock price analysis (2015-2025)</li>
                   <li>Normalized growth indices (Base-100 index)</li>
                   <li>CAGR and volatility calculations</li>
                   <li>Year-over-year return analysis</li>
