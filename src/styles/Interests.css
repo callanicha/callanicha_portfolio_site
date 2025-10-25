@@ -219,52 +219,34 @@
   transform: scale(1.05);
 }
 
-/* Quote Section */
+/* Quote Section — simplified */
 .quote-section {
-  text-align: center;
-  margin-bottom: 100px;
-  background: linear-gradient(135deg, #bfeac3 0%, #ffe8f6 100%);
-  border-radius: 20px;
-  padding: 60px 40px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  margin: 60px 0 60px;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  text-align: center;        /* or 'left' if you prefer */
 }
 
 .inspiration-quote {
   font-family: 'Helveticaneue', sans-serif;
-  font-size: 2.2rem;
-  color: #2c3e50;
-  font-style: italic;
-  margin: 0 0 20px 0;
-  line-height: 1.4;
-  position: relative;
-}
-
-.inspiration-quote::before {
-  content: '"';
-  font-size: 4rem;
-  color: #ffe8f6;
-  position: absolute;
-  top: -20px;
-  left: -20px;
-  font-family: 'Protest', sans-serif;
-}
-
-.inspiration-quote::after {
-  content: '"';
-  font-size: 4rem;
-  color: #ffe8f6;
-  position: absolute;
-  bottom: -40px;
-  right: -20px;
-  font-family: 'Helveticaneue', sans-serif;
-}
-
-.quote-author {
-  font-size: 1.2rem;
-  color: #7f8c8d;
-  font-weight: 600;
+  font-size: 1.2rem;         /* tweak size to taste */
+  color: #000;               /* plain black text */
   font-style: normal;
+  margin: 0;
+  line-height: 1.5;
 }
+
+
+/* responsive (optional) */
+@media (max-width: 768px) {
+  .inspiration-quote { font-size: 1.05rem; }
+}
+@media (max-width: 480px) {
+  .inspiration-quote { font-size: 1rem; }
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

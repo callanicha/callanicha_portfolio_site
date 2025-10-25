@@ -93,21 +93,33 @@ const Interest = () => {
         {/* Fashion Week & Concert Section */}
         <div className="events-section">
           <h2 className="section-title">What keeps pushing me this far ?</h2>
-          <p className="section-subtitle">Fashion Week & Concert Experiences</p>
+          <p className="section-subtitle">I’m inspired by the moments that remind me why I keep going: watching my favorite artists perform, feeling the creative energy of Paris Fashion Week, and being surrounded by people who dare to dream. Most of all, my parents and best friends have always stood by me, giving me the strength to push myself this far. Everything I do is a way of making them proud.</p>
           <div className="gallery-container">
             <div className="gallery-grid">
               {/* Event Images - Add your own images */}
               <div className="gallery-item">
-                <img src="/images/lily9.jpeg" alt="Fashion Week Experience 1" className="gallery-img" />
+                <img src="/images/i2.jpg" alt="wtl paris" className="gallery-img" />
               </div>
               <div className="gallery-item">
-                <img src="/images/lily10.jpeg" alt="Concert Experience 1" className="gallery-img" />
+                <img src="/images/i3.png" alt="manifesto bkk" className="gallery-img" />
               </div>
               <div className="gallery-item">
-                <img src="/images/lily11.jpeg" alt="Fashion Week Experience 2" className="gallery-img" />
+                <img src="/images/i5.png" alt="pfw25" className="gallery-img" />
               </div>
               <div className="gallery-item">
-                <img src="/images/lily12.jpeg" alt="Concert Experience 2" className="gallery-img" />
+                <img src="/images/i6.jpg" alt="wtl bkk" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/i4.jpg" alt="vs" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/i8.jpg" alt="Mom" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/i7.jpg" alt="Dad" className="gallery-img" />
+              </div>
+              <div className="gallery-item">
+                <img src="/images/i1.png" alt="Friends" className="gallery-img" />
               </div>
             </div>
           </div>
@@ -118,7 +130,6 @@ const Interest = () => {
           <blockquote className="inspiration-quote">
             "Every data tells a story — and every outfit does too."
           </blockquote>
-          <cite className="quote-author">— Calla</cite>
         </div>
 
       </div>
