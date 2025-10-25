@@ -11,7 +11,7 @@ const Interest = () => {
         {/* Header Section */}
         <div className="interests-header">
           <h1 className="interests-title">Interests & Inspiration</h1>
-          <p className="interests-subtitle">What drives me beyond the data</p>
+          <p className="interests-subtitle">Get to know me more</p>
         </div>
 
         {/* FAQ Section */}

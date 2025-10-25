@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="footer-bottom">
-        © 2025 Natthanicha VONGJARIT. All vibes reserved.
+        © 2025 Natthanicha VONGJARIT.
       </p>
     </div>
   );
