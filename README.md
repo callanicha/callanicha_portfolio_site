@@ -4,7 +4,7 @@ A personal portfolio website showcasing data analytics projects, skills, and pro
 
 ## Live Demo
 
-Visit the live portfolio: [Click Here](https://fascinating-croissant-cf48f8.netlify.app/)
+Visit the live portfolio: [Click Here](https://callanicha.netlify.app/)
 
 ## Features
 
